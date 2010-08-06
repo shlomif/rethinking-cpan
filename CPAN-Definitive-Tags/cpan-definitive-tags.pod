@@ -5,7 +5,7 @@
 CPAN packages can specify B<keywords> (also known as B<tags> or B<labels>)
 in their META.yml to provide guidelines for indexing a module. This document
 will list some B<"definitive" tags> which will be agreed upon to qualify
-some meta-data about the module for easy categorisation.
+some meta-data about the module for easy categorization.
 
 Unless noted otherwise, all the definitive tags live in the C<def/*> module
 where they are used to be separated from other more random tags.
