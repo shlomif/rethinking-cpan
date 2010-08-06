@@ -109,7 +109,7 @@ Requires a C++ compiler.
 
 =head3 def/requires_ext_libs
 
-Requires an extenral library - for example the L<Gtk2> module which requires
+Requires an external library - for example the L<Gtk2> module which requires
 libgtk.
 
 =head3 def/requires_f77
