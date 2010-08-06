@@ -12,7 +12,28 @@ where they are used to be separated from other more random tags.
 
 =head2 List of tags.
 
-=head3 def/blackmagic
+=head3 def/active_dev
+
+The module is actively developed.
+
+=head3 def/adopt_me
+
+This means the module is abandoned and up-for-adoption. It probably indicates
+that the current maintainer still finds it to be a good and recommended module,
+just that they have lost interest, lack the necessary time, or are otherwise
+unable to maintain it. 
+
+=head3 def/alt_to_core
+
+"Alternative to core".
+
+This module provides a (hopefully better) alternative to a core module.
+Examples: L<File::Next>, L<File::Find::Object>, L<Readonly> 
+(alternative to "constant"), L<Module::Build> (alternative to
+ExtUtils-MakeMaker), L<Module::Starter> (alternative to h2xs),
+L<Sub::Exporter> (alternative to Exporter.pm).
+
+=head3 def/black_magic
 
 Like Magic only something that is considered "Evil". Possible examples are
 source filters and the CPAN L<Error> distribution. Also see C<def/magic>.
@@ -22,9 +43,51 @@ source filters and the CPAN L<Error> distribution. Also see C<def/magic>.
 The module is present and may be maintained, but is not recommended for general
 use. 
 
+=head3 def/linux_only
+
+The module only works on Linux.
+
+=head3 def/macosx_only
+
+This module only works on Mac OS X.
+
+=head3 def/maintained
+
+The module is maintained.
+
 =head3 def/magic
 
 Something unconventional and not straightforward, that may affect the rest of
 Perl. Examples: L<Devel::Declare> .
 
+=head3 def/mswin_only
 
+MS-Windows Only.
+
+=head3 def/non_final_api
+
+Non-finalised API. Means the API may be broken in the future. 
+
+=head3 def/pure_perl 
+
+A Pure Perl module.
+
+=head3 def/requires_c
+
+Requires a C compiler.
+
+=head3 def/requires_cpp
+
+Requires a C++ compiler.
+
+=head3 def/requires_f77
+
+Requires a Fortran 77 compiler.
+
+=head3 def/source_filter
+
+A source filter. Examples: L<Spiffy>, L<Acme::Gosub>.
+
+=head3 def/unix_only
+
+This module only works on UNIX (not Windows, DOS, etc.).
