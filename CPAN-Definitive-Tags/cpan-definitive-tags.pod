@@ -43,6 +43,21 @@ source filters and the CPAN L<Error> distribution. Also see C<def/magic>.
 The module is present and may be maintained, but is not recommended for general
 use. 
 
+=head3 def/driver_base
+
+This implements the so-called "Template Pattern" 
+( L<http://exciton.cs.rice.edu/javaresources/DesignPatterns/TemplatePattern.htm> ) where one has a base class
+that has many drivers as sub-classes that implement the rest of the
+functionality. Examples: L<DBI>, L<XML::SAX>. (Thanks to G. Wade Johnson).
+
+See also C<def/driver>.
+
+=head3 def/driver
+
+This is something like L<DBD::Mysql> or L<DBD::Pg> for L<DBI>.
+
+See also C<def/driver_base>.
+
 =head3 def/linux_only
 
 The module only works on Linux.
@@ -60,6 +75,12 @@ The module is maintained.
 Something unconventional and not straightforward, that may affect the rest of
 Perl. Examples: L<Devel::Declare> .
 
+=head3 def/meta_package
+
+This is a CPAN "Bundle" or "Task" that does not contain any original
+functionality of its own, and just specifies a list of dependencies to be
+retrieved. (Thanks to G. Wade Johnson)
+
 =head3 def/mswin_only
 
 MS-Windows Only.
@@ -67,6 +88,12 @@ MS-Windows Only.
 =head3 def/non_final_api
 
 Non-finalised API. Means the API may be broken in the future. 
+
+=head3 def/plugin
+
+A plugin to another module, that extends it and provides more functionality.
+Examples: L<Template::Plugin::PodSimple>, L<POE::Component::IRC>, etc. (Thanks
+to G. Wade Johnson)
 
 =head3 def/pure_perl 
 
@@ -80,9 +107,18 @@ Requires a C compiler.
 
 Requires a C++ compiler.
 
+=head3 def/requires_ext_libs
+
+Requires an extenral library - for example the L<Gtk2> module which requires
+libgtk.
+
 =head3 def/requires_f77
 
 Requires a Fortran 77 compiler.
+
+=head3 def/requires_objc
+
+Requires an Objective C Compiler.
 
 =head3 def/source_filter
 
@@ -91,3 +127,19 @@ A source filter. Examples: L<Spiffy>, L<Acme::Gosub>.
 =head3 def/unix_only
 
 This module only works on UNIX (not Windows, DOS, etc.).
+
+=head1 COPYRIGHT
+
+Copyright by Shlomi Fish, 2010.
+
+=head1 LICENSE
+
+This document is available under one of these licenses:
+
+1. The MIT/X11 License - 
+L<http://www.opensource.org/licenses/mit-license.php> .
+
+2. The Creative Commons Attribution 3.0 Unported License (or at your option
+any later version of that license):
+
+L<http://creativecommons.org/licenses/by/3.0/> .
