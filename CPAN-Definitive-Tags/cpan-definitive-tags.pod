@@ -1,0 +1,30 @@
+=head1 CPAN Definitive Tags
+
+=head2 Introduction
+
+CPAN packages can specify B<keywords> (also known as B<tags> or B<labels>)
+in their META.yml to provide guidelines for indexing a module. This document
+will list some B<"definitive" tags> which will be agreed upon to qualify
+some meta-data about the module for easy categorisation.
+
+Unless noted otherwise, all the definitive tags live in the C<def/*> module
+where they are used to be separated from other more random tags.
+
+=head2 List of tags.
+
+=head3 def/blackmagic
+
+Like Magic only something that is considered "Evil". Possible examples are
+source filters and the CPAN L<Error> distribution. Also see C<def/magic>.
+
+=head3 def/deprecated
+
+The module is present and may be maintained, but is not recommended for general
+use. 
+
+=head3 def/magic
+
+Something unconventional and not straightforward, that may affect the rest of
+Perl. Examples: L<Devel::Declare> .
+
+
