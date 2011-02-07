@@ -12,13 +12,6 @@ where they are used to be separated from other more random tags.
 
 =head2 List of tags.
 
-=head3 def/work_in_progress
-
-The module is still a work in progress and more features are planned to
-be added. It is "in flux". This is as opposed to a module that is in 
-maintenance mode (or deep maintenance mode) and is not planned to be enhanced
-and expanded too much.
-
 =head3 def/adopt_me
 
 This means the module is abandoned and up-for-adoption. It probably indicates
@@ -114,6 +107,14 @@ Requires an Objective C Compiler.
 =head3 def/source_filter
 
 A source filter. Examples: L<Spiffy>, L<Acme::Gosub>.
+
+=head3 def/work_in_progress
+
+The module is still a work in progress and more features are planned to
+be added. It is "in flux". This is as opposed to a module that is in 
+maintenance mode (or deep maintenance mode) and is not planned to be enhanced
+and expanded too much.
+
 
 =head3 def/works_on_macosx
 
