@@ -12,9 +12,12 @@ where they are used to be separated from other more random tags.
 
 =head2 List of tags.
 
-=head3 def/active_dev
+=head3 def/work_in_progress
 
-The module is actively developed.
+The module is still a work in progress and more features are planned to
+be added. It is "in flux". This is as opposed to a module that is in 
+maintenance mode (or deep maintenance mode) and is not planned to be enhanced
+and expanded too much.
 
 =head3 def/adopt_me
 
@@ -58,14 +61,6 @@ This is something like L<DBD::Mysql> or L<DBD::Pg> for L<DBI>.
 
 See also C<def/driver_base>.
 
-=head3 def/linux_only
-
-The module only works on Linux.
-
-=head3 def/macosx_only
-
-This module only works on Mac OS X.
-
 =head3 def/maintained
 
 The module is maintained.
@@ -80,10 +75,6 @@ Perl. Examples: L<Devel::Declare> .
 This is a CPAN "Bundle" or "Task" that does not contain any original
 functionality of its own, and just specifies a list of dependencies to be
 retrieved. (Thanks to G. Wade Johnson)
-
-=head3 def/mswin_only
-
-MS-Windows Only.
 
 =head3 def/non_final_api
 
@@ -124,9 +115,22 @@ Requires an Objective C Compiler.
 
 A source filter. Examples: L<Spiffy>, L<Acme::Gosub>.
 
-=head3 def/unix_only
+=head3 def/works_on_macosx
 
-This module only works on UNIX (not Windows, DOS, etc.).
+This module should work on Mac OS X.
+
+=head3 def/works_on_mswin
+
+This module should work on Microsoft Windows.
+
+=head3 def/works_on_unix
+
+This module should work on most UNIX/POSIX systems (not Windows, DOS, etc.).
+
+
+=head3 Possibly other def/works_on_*
+
+C<def/works_on_linux>, C<def/works_on_beos>, C<def/works_on_vms> etc.
 
 =head1 COPYRIGHT
 
