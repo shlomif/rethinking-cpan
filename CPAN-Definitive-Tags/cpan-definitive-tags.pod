@@ -133,6 +133,10 @@ This module should work on most UNIX/POSIX systems (not Windows, DOS, etc.).
 
 C<def/works_on_linux>, C<def/works_on_beos>, C<def/works_on_vms> etc.
 
+=head1 VERSION
+
+This is version v0.1.7 of this document.
+
 =head1 COPYRIGHT
 
 Copyright by Shlomi Fish, 2010.
