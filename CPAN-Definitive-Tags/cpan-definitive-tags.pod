@@ -17,14 +17,14 @@ where they are used to be separated from other more random tags.
 This means the module is abandoned and up-for-adoption. It probably indicates
 that the current maintainer still finds it to be a good and recommended module,
 just that they have lost interest, lack the necessary time, or are otherwise
-unable to maintain it. 
+unable to maintain it.
 
 =head3 def/alt_to_core
 
 "Alternative to core".
 
 This module provides a (hopefully better) alternative to a core module.
-Examples: L<File::Next>, L<File::Find::Object>, L<Readonly> 
+Examples: L<File::Next>, L<File::Find::Object>, L<Readonly>
 (alternative to "constant"), L<Module::Build> (alternative to
 ExtUtils-MakeMaker), L<Module::Starter> (alternative to h2xs),
 L<Sub::Exporter> (alternative to Exporter.pm).
@@ -37,11 +37,11 @@ source filters and the CPAN L<Error> distribution. Also see C<def/magic>.
 =head3 def/deprecated
 
 The module is present and may be maintained, but is not recommended for general
-use. 
+use.
 
 =head3 def/driver_base
 
-This implements the so-called "Template Pattern" 
+This implements the so-called "Template Pattern"
 ( L<http://exciton.cs.rice.edu/javaresources/DesignPatterns/TemplatePattern.htm> ) where one has a base class
 that has many drivers as sub-classes that implement the rest of the
 functionality. Examples: L<DBI>, L<XML::SAX>. (Thanks to G. Wade Johnson).
@@ -71,7 +71,7 @@ retrieved. (Thanks to G. Wade Johnson)
 
 =head3 def/non_final_api
 
-Non-finalised API. Means the API may be broken in the future. 
+Non-finalised API. Means the API may be broken in the future.
 
 =head3 def/plugin
 
@@ -79,7 +79,7 @@ A plugin to another module, that extends it and provides more functionality.
 Examples: L<Template::Plugin::PodSimple>, L<POE::Component::IRC>, etc. (Thanks
 to G. Wade Johnson)
 
-=head3 def/pure_perl 
+=head3 def/pure_perl
 
 A Pure Perl module.
 
@@ -111,7 +111,7 @@ A source filter. Examples: L<Spiffy>, L<Acme::Gosub>.
 =head3 def/work_in_progress
 
 The module is still a work in progress and more features are planned to
-be added. It is "in flux". This is as opposed to a module that is in 
+be added. It is "in flux". This is as opposed to a module that is in
 maintenance mode (or deep maintenance mode) and is not planned to be enhanced
 and expanded too much.
 
@@ -133,6 +133,10 @@ This module should work on most UNIX/POSIX systems (not Windows, DOS, etc.).
 
 C<def/works_on_linux>, C<def/works_on_beos>, C<def/works_on_vms> etc.
 
+=head1 VERSION
+
+This is version v0.1.7 of this document.
+
 =head1 COPYRIGHT
 
 Copyright by Shlomi Fish, 2010.
@@ -141,7 +145,7 @@ Copyright by Shlomi Fish, 2010.
 
 This document is available under one of these licenses:
 
-1. The MIT/X11 License - 
+1. The MIT/X11 License -
 L<http://www.opensource.org/licenses/mit-license.php> .
 
 2. The Creative Commons Attribution 3.0 Unported License (or at your option
