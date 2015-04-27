@@ -1,0 +1,15 @@
+=head1 LICENSE
+
+This document is available under one of these licenses:
+
+1. The MIT/X11 License -
+L<http://www.opensource.org/licenses/mit-license.php> .
+
+2. The Creative Commons Attribution 3.0 Unported License (or at your option
+any later version of that license):
+
+L<http://creativecommons.org/licenses/by/3.0/> .
+
+=end
+
+=cut
